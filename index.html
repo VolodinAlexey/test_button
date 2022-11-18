@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <button class="red" id="id1" onclick="show(id,id2,id3);">1</button>
+        <button class="yellow" id="id2" onclick="show(id,id2,id3);">2</button>
+        <button class="blue" id="id3" onclick="show(id,id2,id3);">3</button>
+    </div>
+    
+    <script>
+        function show(id,id2,id3){
+        document.getElementById(id).style.display = 'none';
+        document.getElementById(id2).style.display = 'none'; 
+        document.getElementById(id3).style.display = 'none';}
+    </script>
+    
+</body>
+</html>
